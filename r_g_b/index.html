@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="startHealth">
+        <h1>Game RPG</h1>
+        <label for="go">Введите необходимое здоровье!</label>
+        <input id="go" type="text" name="text" />
+        <button class="btn_health">Go</button>
+      </div>
+      <div class="players">
+        <div class="battleMage">
+          <ol>
+            <h3>Выберите действие:</h3>
+            <li>Удар боевым кадилом;</li>
+            <li>Вертушка левой пяткой;</li>
+            <li>Каноничный фаербол;</li>
+            <li>Магический блок.</li>
+          </ol>
+          <input type="number" id="number" min="1" max="4" />
+        </div>
+        <div class="monster"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

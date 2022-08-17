@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.players {
+  display: flex;
+  gap: 30px;
+}
+.battleMage {
+  width: 500px;
+  height: 400px;
+  background-color: #ccc;
+}
+.monster {
+  width: 500px;
+  height: 400px;
+  background-color: #ccc;
+}

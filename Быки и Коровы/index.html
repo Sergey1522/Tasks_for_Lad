@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Быки и Коровы</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Игра: Быки и Коровы</h1>
+      </div>
+      <div class="games">
+        <div class="gmaes-heading">
+          <h2>Компьютер уже что-то задумал. Играем!</h2>
+        </div>
+        <div class="turn d-flex">
+          <h3 class="i-block">Осталось ходов :</h3>
+          <span class="turn-count"> 10 </span>
+        </div>
+
+        <div id="form" class="pt-20">
+          <label for="number">Введите число :</label>
+          <input
+            type="text"
+            name="text"
+            id="number"
+            placeholder="   Пример: 1234"
+          />
+          <button type="button" class="move">Сделать ход</button>
+        </div>
+        <div class="reset pt-20 center">
+          <button type="submit" class="btn-reset">Новая игра</button>
+        </div>
+      </div>
+      <div class="table">
+        <div class="list"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
